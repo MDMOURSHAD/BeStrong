@@ -1,0 +1,951 @@
+@media (max-width: 1799px) {
+	
+/*====================================*/
+/*-- REUSABLE COMPONENTS --*/						
+/*====================================*/
+
+.heading {
+    font-size: 45px;
+}
+
+.heading-1 {
+    font-size: 30px;
+}
+
+.paragraph {
+    font-size: 20px;
+}
+
+.btn {
+    padding: 15px 40px;
+}
+
+.section-heading p {
+    color: #C5C5C5;
+    line-height: 30px;
+    width: 75%;
+    margin: 0px auto;
+}
+
+/*==================*/
+/*-- HERO AREA --*/						f
+/*==================*/
+
+.hero-content .hero-text-box span {
+    font-size:25px;
+}
+
+.hero-content .hero-text-box h1 {
+    font-size: 50px;
+    width: 55%;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+/*====================================*/
+/*-- PRICE LIST SECTION CSS --*/						
+/*====================================*/
+
+.price-text .btn {
+    padding: 10px 30px !important;
+}
+
+.price-text p {
+    margin-bottom: 15px;
+}
+
+/*====================================*/
+/*-- ABOUT US SECTION CSS --*/
+/*====================================*/
+
+.about-content p {
+    width: 85%;
+}
+
+/*====================================*/
+/*-- CLASSES SECTION CSS --*/						
+/*====================================*/
+
+.title-overlay {
+    height: 23%;
+}
+
+.hover-overlay hr {
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.hover-overlay p {
+    width: 82%;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.hover-overlay button {
+    margin-top: 25px;
+    padding: 13px 45px !important;
+}
+
+/*====================================*/
+/*-- TEAM SECTION CSS --*/						
+/*====================================*/
+
+.member-identity h3 {
+    font-size: 30px !important;
+    margin-bottom: 12px;
+}
+
+/*====================================*/
+/*-- TESTIMONIAL SECTION CSS --*/						
+/*====================================*/
+
+.testimonial-desc P {
+    width: 55%;
+    margin: 80px auto 50px auto;
+}
+
+.testimonial-section .col-xl-10 {
+    width: 78%;
+}
+
+/*====================================*/
+/*-- NEWS SECTION CSS --*/						
+/*====================================*/
+
+.news-section .col-xl-10 {
+    width: 78%;
+}
+
+.news-box {
+    padding: 40px 15px 40px 15px;
+}
+
+.news-details h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.news-details p {
+    margin-bottom: 35px;
+}
+
+/*====================================*/
+/*-- FOOTER SECTION CSS --*/						
+/*====================================*/
+
+.footer-section {
+    overflow: hidden;
+    width: 100%;
+    padding-top: 100px;
+    background: #181A1F;
+}
+
+/*==================*/
+/*--FOOTER MIDDLE--*/                       
+/*==================*/
+
+.p-tags ul {
+    width: 86%;
+}
+
+}
+
+@media (max-width: 1199px) {
+
+/*====================================*/
+/*-- REUSABLE COMPONENTS --*/						
+/*====================================*/
+
+.py-lg-80{
+	padding-top:80px !important;
+	padding-bottom:80px !important;
+}
+
+
+/*==================*/
+/*-- HERO AREA --*/						
+/*==================*/
+
+.hero-content .row .col-xl-1 {
+    display:none;
+}
+
+.hero-section .hero-content {
+    height: 80vh;
+}
+
+.hero-content .hero-text-box h1 {
+    width: 75%;
+}
+
+/*====================================*/
+/*-- PRICE LIST SECTION CSS --*/						
+/*====================================*/
+
+.price-list-section .col-xl-10 {
+    width: 100%;
+}
+
+
+/*====================================*/
+/*-- CLASSES SECTION CSS --*/						
+/*====================================*/
+
+.classes-section .section-heading{
+	padding-bottom:60px !important;
+}
+
+.classes-section .section-heading p {
+    font-size: 17px;
+}
+
+/*====================================*/
+/*-- TEAM SECTION CSS --*/						
+/*====================================*/
+
+.team-section .section-heading p {
+    width: 75%;
+    font-size: 17px;
+}
+
+.team-section .col-xl-10 {
+    width: 100%;
+}
+
+
+/*====================================*/
+/*-- TESTIMONIAL SECTION CSS --*/						
+/*====================================*/
+
+.testimonial-desc P {
+    width: 70%;
+}
+
+/*====================================*/
+/*-- NEWS SECTION CSS --*/                      
+/*====================================*/
+
+.news-section .col-xl-10 {
+    width: 100%;
+}
+
+/*==================*/
+/*--FOOTER TOP--*/                       
+/*==================*/
+
+.footer-item {
+    width: 83%;
+}
+
+/*==================*/
+/*--FOOTER MIDDLE--*/                       
+/*==================*/
+
+.footer-middle {
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+.footer-middle .row .col-xl-5 {
+    width: 36%;
+}
+
+.footer-middle .row .col-xl-2 {
+    width: 24%;
+}
+
+.footer-middle .row .col-xl-4 {
+    width: 40%;
+}
+	
+}
+
+@media (max-width: 991px) {
+
+
+/*====================================*/
+/*-- REUSABLE COMPONENTS --*/                       
+/*====================================*/
+
+.mb-md-60{
+    margin-bottom:60px;
+}  
+
+.mb-md-30{
+    margin-bottom:30px;
+}  
+
+.mt-md-60{
+    margin-top: 60px;
+}   
+
+.section-heading p,
+.team-section .section-heading p{
+    width: 90%;
+}
+
+/*==================*/
+/*-- NAV MENU --*/                       
+/*==================*/
+
+.nav-menu{
+    display:none;
+}
+
+.moblie-menu-phone{
+    display:none;
+}
+
+/*==================*/
+/*-- MOBILE MENU --*/                       
+/*==================*/
+
+.mobile-menu{
+    display:block !important;
+}
+
+.mobile-menu .hamburger-menu{
+    width: 35px;
+    height: 30px;
+    top: 50%;
+    display: flex;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    justify-content: space-around;
+    right: 0px; 
+    flex-direction: column;
+    position: absolute;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.hamburger-menu .line {
+    width: 100%;
+    height: 4px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    background: #111;
+    transition: all .8s;
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    -ms-transition: all .8s;
+    -o-transition: all .8s;
+}
+
+.change .line-1 {
+    transform: rotateZ(-45deg) translate(-8px, 6px);
+    -webkit-transform: rotateZ(-45deg) translate(-8px, 6px);
+    -moz-transform: rotateZ(-45deg) translate(-8px, 6px);
+    -o-transform: rotateZ(-45deg) translate(-8px, 6px);
+    -ms-transform: rotateZ(-45deg) translate(-8px, 6px);
+}
+
+.change .line-2{
+    opacity:0;
+}
+
+.change .line-3 {
+    transform: rotateZ(45deg) translate(-8px, -6px);
+    -webkit-transform: rotateZ(45deg) translate(-8px, -6px);
+    -moz-transform: rotateZ(45deg) translate(-8px, -6px);
+    -o-transform: rotateZ(45deg) translate(-8px, -6px);
+    -ms-transform: rotateZ(45deg) translate(-8px, -6px);
+}
+
+.mobile-menu .nav-list {
+    background: #00a2ff;
+    position: fixed;
+    right: -400px;
+    top: 0;
+    display: flex;
+    z-index: 1;
+    height: 100%;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    transition:right .8s;
+    -webkit-transition:right .8s;
+    -moz-transition:right .8s;
+    -o-transition:right .8s;
+    -ms-transition:right .8s;
+}
+
+.slide-menu {
+    right: 0 !important;
+}
+
+.nav-list ul{
+    text-align: center;
+    padding:0px;
+    
+}
+
+.nav-list ul li:not(:last-child){
+    margin-bottom:10px;
+}
+
+.nav-list ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-decoration: none;
+    display: block;
+    font-weight: 300;
+    padding: 5px 0px;
+    letter-spacing: 1px;
+    font-family: 'Futura PT Book';
+    position:relative;
+}
+
+.nav-list ul li a::before,
+.nav-list ul li a::after{
+    position: absolute;
+    content:"";
+    background:#fff;
+    width:0;
+    height:2px;
+     transition:.5s ease;
+    -webkit-transition:.5s ease;
+    -moz-transition:.5s ease;
+    -o-transition:.5s ease;
+    -ms-transition:.5s ease;
+}
+
+.nav-list ul li a::before{
+    top:0;
+    left:0;
+}
+
+.nav-list ul li a::after{
+    bottom:0;
+    right:0;
+}
+
+.nav-list ul li a:hover::before,
+.nav-list ul li a:hover::after{
+    width:100%;
+}
+
+
+/*==================*/
+/*-- HERO AREA --*/                     
+/*==================*/
+
+.hero-content .hero-text-box h1 {
+    width: 85%;
+}
+
+/*====================================*/
+/*-- ABOUT US SECTION CSS --*/
+/*====================================*/
+
+.about-us-section {
+    padding-top:0px !important;
+}
+
+/*====================================*/
+/*-- CLASSES SECTION CSS --*/                       
+/*====================================*/
+
+.hover-overlay {
+    top: 25px;
+    bottom: 25px;
+    left: 25px;
+    right: 25px;
+}
+
+/*====================================*/
+/*-- TEAM SECTION CSS --*/                      
+/*====================================*/
+
+.member-identity h3 {
+    font-size: 24px !important;
+}
+
+/*====================================*/
+/*-- TESTIMONIAL SECTION CSS --*/                       
+/*====================================*/
+
+.testimonial-desc P {
+    width: 85%;
+}
+
+/*====================================*/
+/*-- FOOTER SECTION CSS --*/                        
+/*====================================*/
+
+.footer-section {
+    padding-top:80px;
+}
+
+/*==================*/
+/*--FOOTER TOP--*/                       
+/*==================*/
+
+.footer-item {
+    width: 70%;
+}
+
+.footer-section  .section-heading hr {
+    margin: 10px 15px !important;
+}
+
+/*==================*/
+/*--FOOTER MIDDLE--*/                       
+/*==================*/
+
+.footer-middle {
+    padding-bottom: 100px;
+}
+
+.footer-middle .row .col-xl-5 {
+    width: 100%;
+}
+
+.footer-middle .row .col-xl-2 {
+    width: 50%;
+}
+
+.footer-middle .row .col-xl-4 {
+    width: 50%;
+}
+
+.p-tags ul {
+    width: 90%;
+}
+
+}
+
+/*==================*/
+/*-- SCROLL TO TOP --*/                       
+/*==================*/
+
+.scrolltop {
+    right: 30px !important;
+    bottom: 30px !important;
+}
+
+@media (max-width: 767px) {
+
+/*====================================*/
+/*-- REUSABLE COMPONENTS --*/                       
+/*====================================*/
+
+.py-sm-70{
+    padding-top:70px !important;
+    padding-bottom:70px !important;
+}
+
+.mt-sm-50{
+    margin-top:50px !important;
+}
+
+.mt-sm-30{
+    margin-top:30px !important;
+}
+
+.section-heading p, .team-section .section-heading p {
+    width: 100% !important;
+}
+
+/*====================================*/
+/*-- HEADER SECTION CSS --*/                        
+/*====================================*/
+
+header nav {
+    padding: 30px 0px;
+}
+
+/*==================*/
+/*-- HERO AREA --*/                     
+/*==================*/
+
+.hero-section .hero-content {
+    height: 120vh;
+}
+
+.hero-content .hero-text-box h1 {
+    width: 100%;
+}
+
+/*====================================*/
+/*-- PRICE LIST SECTION CSS --*/                        
+/*====================================*/
+
+/*====================================*/
+/*-- ABOUT US SECTION CSS --*/
+/*====================================*/
+
+.about-us-section {
+    padding-bottom: 70px !important;
+}
+
+/*====================================*/
+/*-- CLASSES SECTION CSS --*/                       
+/*====================================*/
+
+.classes-section .section-heading {
+    padding-top: 70px !important;
+    padding-bottom: 50px !important;
+}
+
+.hover-overlay {
+    top: 50px !important;
+    bottom: 50px !important;
+    left: 50px !important;
+    right: 50px !important;
+}
+
+/*====================================*/
+/*-- TEAM SECTION CSS --*/                      
+/*====================================*/
+
+.member-identity h3 {
+    font-size: 30px !important;
+}
+
+/*====================================*/
+/*-- TESTIMONIAL SECTION CSS --*/                       
+/*====================================*/
+
+/*==================*/
+/*--SWIPER SLIDER --*/                      
+/*==================*/
+
+/*====================================*/
+/*-- FOOTER SECTION CSS --*/                        
+/*====================================*/
+
+.footer-section {
+    padding-top: 70px !important;
+}
+
+/*==================*/
+/*--FOOTER TOP--*/                       
+/*==================*/
+
+.footer-item {
+    width: 80%;
+}
+
+/*==================*/
+/*--FOOTER MIDDLE--*/                       
+/*==================*/
+
+.footer-middle {
+    padding-bottom: 70px;
+}
+
+.footer-middle .row .col-xl-2 {
+    width: 70%;
+}
+
+.footer-middle .row .col-xl-4 {
+    width: 76%;
+}
+
+/*====================================*/
+/*-- NEWS SECTION CSS --*/                      
+/*====================================*/
+
+/*==================*/
+/*-- FOOTER MENU --*/                       
+/*==================*/
+
+.footer-menu-item ul li:not(:last-child) {
+    margin-right: 30px;
+}
+
+/*==================*/
+/*-- COPYRIGHT --*/                       
+/*==================*/
+
+
+}
+
+@media (max-width: 575px) {
+
+/*====================================*/
+/*-- REUSABLE COMPONENTS --*/                       
+/*====================================*/
+
+.py-xs-60{
+    padding-top:60px !important;
+    padding-bottom:60px !important;
+}
+
+.mt-xs-40{
+    margin-top:40px !important;
+}
+
+.mt-xs-30{
+    margin-top:30px !important;
+}
+
+.mt-xs-15{
+    margin-top:15px !important;
+}
+
+.mb-xs-15{
+    margin-bottom:15px !important;
+}
+
+.mb-xs-30{
+    margin-bottom:30px !important;
+}
+
+.heading {
+    font-size: 35px !important;
+}
+
+.heading-1 {
+    font-size: 25px !important;
+}
+
+.paragraph {
+    font-size: 17px !important;
+}
+
+.btn {
+    padding: 14px 35px !important;
+    font-size:15px !important;
+}
+
+.classes-section .section-heading {
+    padding-top: 60px !important;
+    padding-bottom: 40px !important;
+}
+
+.section-heading hr {
+    width: 90px !important;
+}
+
+/*====================================*/
+/*-- HEADER SECTION CSS --*/                        
+/*====================================*/
+
+.phone-number{
+    display:none;
+}
+
+/*==================*/
+/*-- MOBILE MENU --*/                       
+/*==================*/
+
+.mobile-menu .nav-list {
+    right: -100%;
+    width: 100%;
+    flex-direction:column;
+}
+
+.moblie-menu-phone{
+    display:block;
+    margin-top:20px;
+}
+
+.moblie-menu-phone ul li:first-child {
+    margin-right: 12px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid var(--color-1);
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    color: var(--color-5);
+}
+
+.moblie-menu-phone ul li .icon-phone-alt-solid{
+    color:#111;
+}
+
+.moblie-menu-phone ul li:last-child {
+    color: #262626;
+    font-size: var(--fs-4);
+}
+
+/*==================*/
+/*-- HERO AREA --*/                     
+/*==================*/
+
+.hero-section .hero-content {
+    height: 100vh !important;
+}
+
+.hero-content .hero-text-box h1 {
+    font-size: 45px;
+
+}
+
+.hero-social-area ul li a {
+    padding: 15px 15px;
+}
+
+.facebook-icon {
+    padding: 15px 18px !important;
+}
+
+.instagram-icon {
+    padding: 15px 16px !important;
+}
+
+/*==================*/
+/*-- STICKY MENU --*/                       
+/*==================*/
+
+/*====================================*/
+/*-- PRICE LIST SECTION CSS --*/                        
+/*====================================*/
+
+/*====================================*/
+/*-- ABOUT US SECTION CSS --*/
+/*====================================*/
+
+.about-content {
+    text-align: center;
+}
+
+.about-content hr {
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-content p {
+    width: 100%;
+}
+
+/*====================================*/
+/*-- CLASSES SECTION CSS --*/                       
+/*====================================*/
+
+.classes-section .section-heading p,
+.team-section .section-heading p{
+    font-size: 14px !important;
+    line-height: 23px;
+}
+
+.hover-overlay {
+    top: 20px !important;
+    bottom: 20px !important;
+    left: 20px !important;
+    right: 20px !important;
+}
+
+.hover-overlay p {
+    width: 90%;
+    font-size: 14px;
+}
+
+.hover-overlay button {
+    margin-top: 20px;
+}
+
+/*====================================*/
+/*-- TEAM SECTION CSS --*/                      
+/*====================================*/
+
+/*====================================*/
+/*-- TESTIMONIAL SECTION CSS --*/                       
+/*====================================*/
+
+/*==================*/
+/*--SWIPER SLIDER --*/                      
+/*==================*/
+
+/*====================================*/
+/*-- FOOTER SECTION CSS --*/                        
+/*====================================*/
+
+.footer-section {
+    padding-top: 60px !important;
+}
+
+/*==================*/
+/*--FOOTER TOP--*/                       
+/*==================*/
+
+.footer-item {
+    width: 100%;
+}
+
+.footer-form {
+    margin-top: 40px;
+}
+
+.email-phone {
+    font-size: 14px !important;
+    margin-top: 35px !important;
+}
+
+.footer-social-area {
+    margin-top: 25px !important;
+}
+
+/*==================*/
+/*--FOOTER MIDDLE--*/                       
+/*==================*/
+
+.footer-middle {
+    padding-bottom: 60px !important;
+    padding-top:60px !important;
+}
+
+.footer-middle .row .col-xl-2 {
+    width: 100%;
+}
+
+.footer-middle .row .col-xl-4 {
+    width: 100%;
+}
+
+.footer-logo {
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.footer-middle h3 {
+    margin-bottom: 25px;
+}
+
+/*====================================*/
+/*-- NEWS SECTION CSS --*/                      
+/*====================================*/
+
+.news-details h3 {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.news-details p {
+    margin-bottom: 25px;
+}
+
+/*==================*/
+/*-- FOOTER MENU --*/                       
+/*==================*/
+
+.footer-menu-item ul li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.footer-menu-item ul li a {
+    font-size: 14px;
+}
+
+/*==================*/
+/*-- COPYRIGHT --*/                       
+/*==================*/
+
+.copyright p{
+    font-size:14px !important;
+}
+
+}
