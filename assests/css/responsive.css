@@ -28,7 +28,7 @@
 }
 
 /*==================*/
-/*-- HERO AREA --*/						f
+/*-- HERO AREA --*/	
 /*==================*/
 
 .hero-content .hero-text-box span {
@@ -106,7 +106,7 @@
 }
 
 .testimonial-section .col-xl-10 {
-    width: 78%;
+    width: 73.8%;
 }
 
 /*====================================*/
@@ -285,6 +285,14 @@
     width: 90%;
 }
 
+/*====================================*/
+/*-- HEADER SECTION CSS --*/                        
+/*====================================*/
+
+.phone-number{
+    display:none;
+}
+
 /*==================*/
 /*-- NAV MENU --*/                       
 /*==================*/
@@ -294,7 +302,29 @@
 }
 
 .moblie-menu-phone{
-    display:none;
+    display:block;
+    margin-top:20px;
+}
+
+.moblie-menu-phone ul li:first-child {
+    margin-right: 12px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid var(--color-1);
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    color: var(--color-5);
+}
+
+.moblie-menu-phone ul li .icon-phone-alt-solid{
+    color:#111;
+}
+
+.moblie-menu-phone ul li:last-child {
+    color: #262626;
+    font-size: var(--fs-4);
 }
 
 /*==================*/
@@ -367,6 +397,7 @@
     display: flex;
     z-index: 1;
     height: 100%;
+    flex-direction:column;
     width: 400px;
     align-items: center;
     justify-content: center;
@@ -398,7 +429,7 @@
     text-decoration: none;
     display: block;
     font-weight: 300;
-    padding: 5px 0px;
+    padding: 6px 0px;
     letter-spacing: 1px;
     font-family: 'Futura PT Book';
     position:relative;
@@ -410,7 +441,7 @@
     content:"";
     background:#fff;
     width:0;
-    height:2px;
+    height:3px;
      transition:.5s ease;
     -webkit-transition:.5s ease;
     -moz-transition:.5s ease;
@@ -576,10 +607,6 @@ header nav {
 }
 
 /*====================================*/
-/*-- PRICE LIST SECTION CSS --*/                        
-/*====================================*/
-
-/*====================================*/
 /*-- ABOUT US SECTION CSS --*/
 /*====================================*/
 
@@ -615,9 +642,37 @@ header nav {
 /*-- TESTIMONIAL SECTION CSS --*/                       
 /*====================================*/
 
+.testimonial-section .col-xl-10 {
+    width: 100% !important;
+}
+
+.testimonial-desc P {
+    width: 90% !important;
+    margin: 30px auto 50px auto !important;
+}
+
+.testimonial-desc h3 {
+    margin: 15px 0px 10px 0px;
+}
+
 /*==================*/
 /*--SWIPER SLIDER --*/                      
 /*==================*/
+
+.swiper-wrapper {
+    padding-bottom: 40px;
+}
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+    height: 35px;
+    width: 35px;
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    height: 35px;
+    width: 35px;
+    
+}
 
 /*====================================*/
 /*-- FOOTER SECTION CSS --*/                        
@@ -651,10 +706,6 @@ header nav {
     width: 76%;
 }
 
-/*====================================*/
-/*-- NEWS SECTION CSS --*/                      
-/*====================================*/
-
 /*==================*/
 /*-- FOOTER MENU --*/                       
 /*==================*/
@@ -662,11 +713,6 @@ header nav {
 .footer-menu-item ul li:not(:last-child) {
     margin-right: 30px;
 }
-
-/*==================*/
-/*-- COPYRIGHT --*/                       
-/*==================*/
-
 
 }
 
@@ -727,14 +773,6 @@ header nav {
     width: 90px !important;
 }
 
-/*====================================*/
-/*-- HEADER SECTION CSS --*/                        
-/*====================================*/
-
-.phone-number{
-    display:none;
-}
-
 /*==================*/
 /*-- MOBILE MENU --*/                       
 /*==================*/
@@ -742,33 +780,6 @@ header nav {
 .mobile-menu .nav-list {
     right: -100%;
     width: 100%;
-    flex-direction:column;
-}
-
-.moblie-menu-phone{
-    display:block;
-    margin-top:20px;
-}
-
-.moblie-menu-phone ul li:first-child {
-    margin-right: 12px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: 3px solid var(--color-1);
-    text-align: center;
-    line-height: 50px;
-    font-size: 18px;
-    color: var(--color-5);
-}
-
-.moblie-menu-phone ul li .icon-phone-alt-solid{
-    color:#111;
-}
-
-.moblie-menu-phone ul li:last-child {
-    color: #262626;
-    font-size: var(--fs-4);
 }
 
 /*==================*/
@@ -795,14 +806,6 @@ header nav {
 .instagram-icon {
     padding: 15px 16px !important;
 }
-
-/*==================*/
-/*-- STICKY MENU --*/                       
-/*==================*/
-
-/*====================================*/
-/*-- PRICE LIST SECTION CSS --*/                        
-/*====================================*/
 
 /*====================================*/
 /*-- ABOUT US SECTION CSS --*/
@@ -849,16 +852,20 @@ header nav {
 }
 
 /*====================================*/
-/*-- TEAM SECTION CSS --*/                      
-/*====================================*/
-
-/*====================================*/
 /*-- TESTIMONIAL SECTION CSS --*/                       
 /*====================================*/
+
+.testimonial-desc P {
+    font-size: 14px !important;
+}
 
 /*==================*/
 /*--SWIPER SLIDER --*/                      
 /*==================*/
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 13px;
+}
 
 /*====================================*/
 /*-- FOOTER SECTION CSS --*/                        

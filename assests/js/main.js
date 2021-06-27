@@ -10,15 +10,11 @@ preload[0].style.display ="none";
 
 }
 
-
-
 // SWIPER SLIDE //
 
 var swiper = new Swiper('.swiper-container', {
 
-      centeredSlides: true,
-      // slidesPerView: 1,
-      autoplay: {
+     autoplay: {
         delay: 2500,
         disableOnInteraction: false,
       },
@@ -83,7 +79,6 @@ $(window).scroll(function(){
   }
 
 });
-
 
 });
 

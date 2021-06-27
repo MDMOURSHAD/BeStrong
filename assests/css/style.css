@@ -62,7 +62,7 @@ button:focus{
 /*-- REUSABLE COMPONENTS --*/						
 /*====================================*/
 
-.heading {
+.heading{
     color: var(--color-1);
     font-size: var(--fs-1);
     font-family: 'Futura PT';
@@ -157,8 +157,11 @@ button:focus{
     position: fixed;
     top: 0;
     left: 0;
-    background: #fff url('../images/Rolling-2.9s-137px.gif') center no-repeat;
+    background: #fff;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     z-index: 999999;
     right: 0;
@@ -187,7 +190,7 @@ header nav{
     font-family: 'Futura PT Book';
     color: var(--color-2);
     position: relative;
-    padding: 5px 0px;
+    padding: 6px 0px;
 }
 
 .main-menu ul li a::before,
@@ -196,7 +199,7 @@ header nav{
     content:"";
     background:#111;
     width:0;
-    height:2px;
+    height:3px;
     transition:.5s ease;
     -webkit-transition:.5s ease;
     -moz-transition:.5s ease;
@@ -391,6 +394,7 @@ header nav{
     padding: 12px 40px !important;
 
 }
+
 .classic-btn{
 	background:#FF6C2C;
 }
@@ -460,6 +464,13 @@ header nav{
 	overflow:hidden;
 }
 
+/*.img-overlay img{
+   min-height: 360px; 
+   object-fit: cover;
+   object-position: center;
+   width: 100% !important;
+}
+*/
 .img-overlay:hover .title-overlay{
 	height:0%;
 	bottom:-16px;
@@ -496,7 +507,7 @@ header nav{
 }
 
 .hover-overlay {
-    background:#0988D3 !important;
+    background:rgb(58 137 205 / .9) !important;
     position: absolute;
     top: 50px;
     left: 0;
@@ -805,7 +816,11 @@ header nav{
     overflow: hidden;
 }
 
-.select {
+.footer-form textarea{
+    display:block !important;
+}
+
+.select{
     width: 100%;
     border: 1px solid var(--color-5);
     align-items: center;
@@ -836,13 +851,15 @@ select{
 
 .select::after {
     position: absolute;
-    top: 0px;
+    top: 50%;
     right: 0px;
+    transform: translateY(-50%);
     content: '\25BC';
     font-size: 20px;
     padding: 12px 10px;
     pointer-events: none;
-    color: var(--color-5);
+    color: var(
+    --color-5);
     cursor: pointer;
 }
 
@@ -858,7 +875,7 @@ select::-ms-expand {
 .footer-form textarea{
     width:100%;
     padding: 10px 10px;
-    color:#BBBBBB;
+    color:#BBBBBB !important;
     background:transparent;
     border: 1px solid var(--color-5);
     font-family: 'Futura PT';
@@ -1076,10 +1093,13 @@ select::-ms-expand {
     background: tomato;
     text-align: center;
     position: fixed;
-    line-height: 40px;
     right: 50px;
     color: #fff;
     bottom: 50px;
     display:none;
+}
+
+.scrolltop .icon-arrow-up-solid{
+    line-height: 40px;
 }
 
