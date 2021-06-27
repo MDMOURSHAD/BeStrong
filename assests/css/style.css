@@ -465,7 +465,7 @@ header nav{
 }
 
 .img-overlay img{
-   min-height: 360px; 
+   height: 360px; 
    object-fit: cover;
    object-position: center;
    width: 100% !important;
