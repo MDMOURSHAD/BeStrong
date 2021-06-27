@@ -464,13 +464,13 @@ header nav{
 	overflow:hidden;
 }
 
-/*.img-overlay img{
+.img-overlay img{
    min-height: 360px; 
    object-fit: cover;
    object-position: center;
    width: 100% !important;
 }
-*/
+
 .img-overlay:hover .title-overlay{
 	height:0%;
 	bottom:-16px;
