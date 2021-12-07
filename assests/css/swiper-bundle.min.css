@@ -162,7 +162,9 @@
 }
 .swiper-button-prev:after,
 .swiper-container-rtl .swiper-button-next:after {
-    content: "prev";
+    font-family: "Font Awesome 5 Brands"; 
+    font-weight: 400;
+    content: "\f337";
 }
 .swiper-button-next,
 .swiper-container-rtl .swiper-button-prev {
