@@ -1,32 +1,32 @@
-
-
 // PRELOADER //
 
-function load(){
+function load() {
 
-var preload = document.getElementsByClassName('preload');
+  var preload = document.getElementsByClassName('preload');
 
-preload[0].style.display ="none";
+  preload[0].style.display = "none";
 
 }
 
 // SWIPER SLIDE //
 
-var swiper = new Swiper('.swiper-container', {
-
-     autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
+var swiper = new Swiper('.swiper', {
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  speed:1200,
+  grabCursor: true,
+  loop: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  }
+});
 
 // MOBILE MENU //
 
@@ -37,48 +37,43 @@ menuIcon.addEventListener("click", () => {
 
   menuIcon.classList.toggle('change');
   navlist.classList.toggle('slide-menu');
-  
+
 });
 
-function myFunction(){
+function myFunction() {
 
   menuIcon.classList.remove('change');
   navlist.classList.remove('slide-menu');
-  
+
 }
 
 
-$(document).ready(function(){
+$(document).ready(function () {
 
-// STCKY MENU //
+  // STCKY MENU //
 
-$(window).scroll(function(){
+  $(window).scroll(function () {
 
-	if($(this).scrollTop() > 50){
+    if ($(this).scrollTop() > 50) {
 
-		$('.nav').addClass('sticky');
-	}
+      $('.nav').addClass('sticky');
+    } else {
+      $('.nav').removeClass('sticky');
+    }
 
-	else{
-		$('.nav').removeClass('sticky');
-	}
+  });
 
-});
+  //  SCROLL TO TOP //
 
-//  SCROLL TO TOP //
+  $(window).scroll(function () {
 
-$(window).scroll(function(){
+    if ($(this).scrollTop() > 100) {
 
-  if($(this).scrollTop() > 100){
+      $('.scrolltop').fadeIn();
+    } else {
+      $('.scrolltop').fadeOut();
+    }
 
-    $('.scrolltop').fadeIn();
-  }
-
-  else{
-    $('.scrolltop').fadeOut();
-  }
+  });
 
 });
-
-});
-
